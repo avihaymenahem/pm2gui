@@ -2,15 +2,254 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08a55751-0d9c-4621-b1b2-8a7bf0861e63" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/app.module.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/i18n/en-US/index.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/index.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/index.ts" afterPath="$PROJECT_DIR$/src/app/app.component.ts" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/isarray/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/isarray/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/isarray/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/isarray/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readable-stream/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readable-stream/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readable-stream/GOVERNANCE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/BufferList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/supports-color/browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/yargs/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/yargs/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/yargs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/yargs/completion.sh.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/yargs/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/yargs/lib/completion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/yargs/lib/parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/yargs/lib/usage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/yargs/lib/validation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/uglify-js/node_modules/yargs/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/lib/assign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/lib/command.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/lib/levenshtein.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/lib/obj-filter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/be.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/de.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/en.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/es.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/fr.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/hi.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/hu.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/id.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/it.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/ja.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/ko.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/nb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/nl.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/pirate.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/pl.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/pt.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/pt_BR.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/ru.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/th.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/tr.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/zh_CN.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/camelcase/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/camelcase/license" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/camelcase/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/camelcase/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/cliui/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/cliui/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/cliui/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/cliui/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/cliui/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/yargs.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pm2gui.iml" afterPath="$PROJECT_DIR$/.idea/pm2gui.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-testing.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common.umd.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/index.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/index.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/common/index.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/package.json" afterPath="$PROJECT_DIR$/node_modules/@angular/common/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/src/common.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/src/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/src/common.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/common/src/common.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/src/location/index.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/src/location/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/src/location/index.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/common/src/location/index.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/src/location/platform_location.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/common/src/location/platform_location.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/src/location/platform_location.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/src/location/platform_location.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/src/location/platform_location.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/common/src/location/platform_location.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/src/location/platform_location.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@angular/common/src/location/platform_location.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/src/version.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/src/version.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/src/version.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/common/src/version.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/src/version.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@angular/common/src/version.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler-testing.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler.umd.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/package.json" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/src/i18n/digest.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/src/i18n/digest.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/src/i18n/digest.js" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/src/i18n/digest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/src/i18n/digest.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/src/i18n/digest.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/src/i18n/digest.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/src/i18n/digest.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/src/version.js" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/src/version.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/src/version.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/src/version.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/src/version.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/src/version.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core-testing.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core.umd.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/package.json" afterPath="$PROJECT_DIR$/node_modules/@angular/core/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/src/version.js" afterPath="$PROJECT_DIR$/node_modules/@angular/core/src/version.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/src/version.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/core/src/version.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/src/version.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@angular/core/src/version.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/forms/bundles/forms.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/bundles/forms.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/forms/bundles/forms.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/bundles/forms.umd.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/forms/package.json" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/forms/src/version.js" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/src/version.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/forms/src/version.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/src/version.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/forms/src/version.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/src/version.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/bundles/http-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/http/bundles/http-testing.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/bundles/http.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/http/bundles/http.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/bundles/http.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/http/bundles/http.umd.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/package.json" afterPath="$PROJECT_DIR$/node_modules/@angular/http/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/src/version.js" afterPath="$PROJECT_DIR$/node_modules/@angular/http/src/version.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/src/version.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/http/src/version.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/src/version.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@angular/http/src/version.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic-testing.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/package.json" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/src/version.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/src/version.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/src/version.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/src/version.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/src/version.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/src/version.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser-testing.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser.umd.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/package.json" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/src/version.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/src/version.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/src/version.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/src/version.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/src/version.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/src/version.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-server/bundles/platform-server-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-server/bundles/platform-server-testing.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-server/bundles/platform-server.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-server/bundles/platform-server.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-server/bundles/platform-server.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-server/bundles/platform-server.umd.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-server/package.json" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-server/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-server/src/version.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-server/src/version.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-server/src/version.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-server/src/version.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-server/src/version.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-server/src/version.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/bundles/router-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/router/bundles/router-testing.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/bundles/router-upgrade.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/router/bundles/router-upgrade.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/bundles/router-upgrade.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/router/bundles/router-upgrade.umd.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/bundles/router.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/router/bundles/router.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/bundles/router.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/router/bundles/router.umd.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/package.json" afterPath="$PROJECT_DIR$/node_modules/@angular/router/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/router.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/router/src/router.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/router.js" afterPath="$PROJECT_DIR$/node_modules/@angular/router/src/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/router.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/router/src/router.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/router_module.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/router/src/router_module.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/router_module.js" afterPath="$PROJECT_DIR$/node_modules/@angular/router/src/router_module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/router_module.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/router/src/router_module.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/router_module.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@angular/router/src/router_module.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/version.js" afterPath="$PROJECT_DIR$/node_modules/@angular/router/src/version.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/version.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/router/src/version.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/src/version.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@angular/router/src/version.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/upgrade.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/router/upgrade.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/upgrade.js" afterPath="$PROJECT_DIR$/node_modules/@angular/router/upgrade.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/upgrade.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/router/upgrade.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/upgrade.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@angular/router/upgrade.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ansi-regex/package.json" afterPath="$PROJECT_DIR$/node_modules/ansi-regex/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/big.js/package.json" afterPath="$PROJECT_DIR$/node_modules/big.js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/buffer-shims/package.json" afterPath="$PROJECT_DIR$/node_modules/buffer-shims/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/camelcase/package.json" afterPath="$PROJECT_DIR$/node_modules/camelcase/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chokidar/package.json" afterPath="$PROJECT_DIR$/node_modules/chokidar/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cliui/package.json" afterPath="$PROJECT_DIR$/node_modules/cliui/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/core-util-is/package.json" afterPath="$PROJECT_DIR$/node_modules/core-util-is/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/decamelize/package.json" afterPath="$PROJECT_DIR$/node_modules/decamelize/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/emojis-list/package.json" afterPath="$PROJECT_DIR$/node_modules/emojis-list/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/package.json" afterPath="$PROJECT_DIR$/node_modules/enhanced-resolve/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/get-caller-file/package.json" afterPath="$PROJECT_DIR$/node_modules/get-caller-file/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/graceful-fs/package.json" afterPath="$PROJECT_DIR$/node_modules/graceful-fs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-flag/package.json" afterPath="$PROJECT_DIR$/node_modules/has-flag/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/node_modules/inherits/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-utf8/package.json" afterPath="$PROJECT_DIR$/node_modules/is-utf8/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/isarray/README.md" afterPath="$PROJECT_DIR$/node_modules/isarray/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/isarray/index.js" afterPath="$PROJECT_DIR$/node_modules/isarray/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/isobject/package.json" afterPath="$PROJECT_DIR$/node_modules/isobject/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json5/package.json" afterPath="$PROJECT_DIR$/node_modules/json5/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/load-json-file/package.json" afterPath="$PROJECT_DIR$/node_modules/load-json-file/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/loader-utils/package.json" afterPath="$PROJECT_DIR$/node_modules/loader-utils/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/memory-fs/package.json" afterPath="$PROJECT_DIR$/node_modules/memory-fs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/micromatch/package.json" afterPath="$PROJECT_DIR$/node_modules/micromatch/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/minimalistic-assert/package.json" afterPath="$PROJECT_DIR$/node_modules/minimalistic-assert/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/minimatch/package.json" afterPath="$PROJECT_DIR$/node_modules/minimatch/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/minimist/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/minimist/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/minimist/index.js" afterPath="$PROJECT_DIR$/node_modules/minimist/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/minimist/package.json" afterPath="$PROJECT_DIR$/node_modules/minimist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/minimist/readme.markdown" afterPath="$PROJECT_DIR$/node_modules/minimist/readme.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/minimist/test/dash.js" afterPath="$PROJECT_DIR$/node_modules/minimist/test/dash.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/minimist/test/default_bool.js" afterPath="$PROJECT_DIR$/node_modules/minimist/test/default_bool.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/minimist/test/dotted.js" afterPath="$PROJECT_DIR$/node_modules/minimist/test/dotted.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/minimist/test/parse.js" afterPath="$PROJECT_DIR$/node_modules/minimist/test/parse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/minimist/test/parse_modified.js" afterPath="$PROJECT_DIR$/node_modules/minimist/test/parse_modified.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mkdirp/package.json" afterPath="$PROJECT_DIR$/node_modules/mkdirp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-libs-browser/package.json" afterPath="$PROJECT_DIR$/node_modules/node-libs-browser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/number-is-nan/package.json" afterPath="$PROJECT_DIR$/node_modules/number-is-nan/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/object-assign/package.json" afterPath="$PROJECT_DIR$/node_modules/object-assign/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/os-locale/package.json" afterPath="$PROJECT_DIR$/node_modules/os-locale/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/parse-json/package.json" afterPath="$PROJECT_DIR$/node_modules/parse-json/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/path-is-absolute/package.json" afterPath="$PROJECT_DIR$/node_modules/path-is-absolute/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pinkie-promise/package.json" afterPath="$PROJECT_DIR$/node_modules/pinkie-promise/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" afterPath="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/punycode/package.json" afterPath="$PROJECT_DIR$/node_modules/punycode/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/read-pkg-up/package.json" afterPath="$PROJECT_DIR$/node_modules/read-pkg-up/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/.npmignore" afterPath="$PROJECT_DIR$/node_modules/readable-stream/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/LICENSE" afterPath="$PROJECT_DIR$/node_modules/readable-stream/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/README.md" afterPath="$PROJECT_DIR$/node_modules/readable-stream/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_duplex.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_duplex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_passthrough.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_passthrough.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_readable.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_readable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_transform.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_transform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_writable.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_writable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/readable.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/readable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readdirp/package.json" afterPath="$PROJECT_DIR$/node_modules/readdirp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/require-directory/package.json" afterPath="$PROJECT_DIR$/node_modules/require-directory/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/require-main-filename/package.json" afterPath="$PROJECT_DIR$/node_modules/require-main-filename/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/package.json" afterPath="$PROJECT_DIR$/node_modules/rxjs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/semver/package.json" afterPath="$PROJECT_DIR$/node_modules/semver/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/set-blocking/package.json" afterPath="$PROJECT_DIR$/node_modules/set-blocking/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/source-map/package.json" afterPath="$PROJECT_DIR$/node_modules/source-map/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stream-browserify/package.json" afterPath="$PROJECT_DIR$/node_modules/stream-browserify/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stream-http/package.json" afterPath="$PROJECT_DIR$/node_modules/stream-http/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/string-width/package.json" afterPath="$PROJECT_DIR$/node_modules/string-width/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/string_decoder/package.json" afterPath="$PROJECT_DIR$/node_modules/string_decoder/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/strip-ansi/package.json" afterPath="$PROJECT_DIR$/node_modules/strip-ansi/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/strip-bom/index.js" afterPath="$PROJECT_DIR$/node_modules/strip-bom/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/strip-bom/package.json" afterPath="$PROJECT_DIR$/node_modules/strip-bom/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/strip-bom/readme.md" afterPath="$PROJECT_DIR$/node_modules/strip-bom/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/supports-color/index.js" afterPath="$PROJECT_DIR$/node_modules/supports-color/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/supports-color/package.json" afterPath="$PROJECT_DIR$/node_modules/supports-color/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/supports-color/readme.md" afterPath="$PROJECT_DIR$/node_modules/supports-color/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tapable/package.json" afterPath="$PROJECT_DIR$/node_modules/tapable/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/package.json" afterPath="$PROJECT_DIR$/node_modules/typescript/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/package.json" afterPath="$PROJECT_DIR$/node_modules/uglify-js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/util-deprecate/package.json" afterPath="$PROJECT_DIR$/node_modules/util-deprecate/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/package.json" afterPath="$PROJECT_DIR$/node_modules/webpack/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/which-module/package.json" afterPath="$PROJECT_DIR$/node_modules/which-module/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/window-size/package.json" afterPath="$PROJECT_DIR$/node_modules/window-size/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/package.json" afterPath="$PROJECT_DIR$/node_modules/wrap-ansi/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/xtend/package.json" afterPath="$PROJECT_DIR$/node_modules/xtend/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/y18n/package.json" afterPath="$PROJECT_DIR$/node_modules/y18n/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs-parser/package.json" afterPath="$PROJECT_DIR$/node_modules/yargs-parser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/yargs/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs/LICENSE" afterPath="$PROJECT_DIR$/node_modules/yargs/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs/README.md" afterPath="$PROJECT_DIR$/node_modules/yargs/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs/completion.sh.hbs" afterPath="$PROJECT_DIR$/node_modules/yargs/completion.sh.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs/index.js" afterPath="$PROJECT_DIR$/node_modules/yargs/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs/lib/completion.js" afterPath="$PROJECT_DIR$/node_modules/yargs/lib/completion.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs/lib/usage.js" afterPath="$PROJECT_DIR$/node_modules/yargs/lib/usage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs/lib/validation.js" afterPath="$PROJECT_DIR$/node_modules/yargs/lib/validation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs/package.json" afterPath="$PROJECT_DIR$/node_modules/yargs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/zone.js/package.json" afterPath="$PROJECT_DIR$/node_modules/zone.js/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js.map" afterPath="$PROJECT_DIR$/src/index.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.ts" afterPath="$PROJECT_DIR$/src/index.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings.json" afterPath="$PROJECT_DIR$/typings.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,31 +267,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="45">
+              <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".typingsrc" pinned="false" current-in-tab="true">
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".typingsrc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.typingsrc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tsconfig.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            <state relative-caret-position="30">
+              <caret line="2" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -61,9 +300,11 @@
       <file leaf-file-name="typings.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typings.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <marker date="1489736126000" expanded="true" signature="0:136" ph="{&quot;name&quot;: &quot;pm2gui&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,10 +322,10 @@
       <file leaf-file-name="index.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+            <state relative-caret-position="105">
+              <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding>
-                <element signature="e#0#75#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,8 +334,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -118,15 +369,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/i18n/en-US/index.json" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/src/index.ts" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/.typingsrc" />
+        <option value="$PROJECT_DIR$/.npmrc" />
+        <option value="$PROJECT_DIR$/typings.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/index.ts" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
       </list>
     </option>
   </component>
@@ -191,25 +445,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pm2gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pm2gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -300,12 +536,12 @@
       <option name="presentableId" value="Default" />
       <updated>1489701598845</updated>
       <workItem from="1489701600140" duration="73000" />
-      <workItem from="1489701680010" duration="2546000" />
+      <workItem from="1489701680010" duration="4142000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2619000" />
+    <option name="totallyTimeSpent" value="4215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="969" extended-state="0" />
@@ -317,18 +553,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,10 +609,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.npmrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.typingsrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1489736126000" expanded="true" signature="0:136" ph="{&quot;name&quot;: &quot;pm2gui&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -389,41 +677,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typings.json">
+    <entry file="file://$PROJECT_DIR$/dist/app.bundle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -433,16 +695,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="135">
+          <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.typingsrc">
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        <state relative-caret-position="90">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding />
         </state>
       </provider>
