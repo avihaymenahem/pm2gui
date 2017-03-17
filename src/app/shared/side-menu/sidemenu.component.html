@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let menuItem of MenuItems">
+        <a routerLink="{{menuItem.link}}" routerLinkActive="active">{{ menuItem.readableName }}</a>
+    </li>
+</ul>

@@ -8,7 +8,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
+var forms_1 = require("@angular/forms");
+var http_1 = require("@angular/http");
+var app_router_1 = require("./app.router");
 var app_component_1 = require("./app.component");
+var home_component_1 = require("./pages/home/home.component");
+var sidemenu_component_1 = require("./shared/side-menu/sidemenu.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -16,10 +21,9 @@ var AppModule = (function () {
 }());
 AppModule = __decorate([
     core_1.NgModule({
-        imports: [platform_browser_1.BrowserModule],
+        imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, http_1.HttpModule, app_router_1.routes],
         providers: [],
-        declarations: [app_component_1.AppComponent],
-        exports: [app_component_1.AppComponent],
+        declarations: [app_component_1.AppComponent, home_component_1.HomeComponent, sidemenu_component_1.SideMenuComponent],
         bootstrap: [app_component_1.AppComponent]
     })
 ], AppModule);
