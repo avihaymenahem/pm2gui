@@ -2,7 +2,7 @@
 
 Hello there! I’m **PM2-GUI**;
 
-Currently still in development!
+Currently still in development, started as a POC, and wishing to grow more with your help! :)
 
 ![Screenshot](http://i.imgur.com/7JqFjXx.png)
 
