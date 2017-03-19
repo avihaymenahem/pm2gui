@@ -10,12 +10,7 @@ Currently still in development, started as a POC, and wishing to grow more with 
 
 Clone the repo and then run the following command inside the folder
 ```
-npm install
-```
-
-when done, run :
-```
-npm start
+npm install && npm start
 ```
 
 you will get two running node processes on default 3000, 8080 ports.
@@ -25,3 +20,4 @@ you will get two running node processes on default 3000, 8080 ports.
 - Webpack
 - Express
 - Pm2
+- Bootstrap
