@@ -19,3 +19,9 @@ npm start
 ```
 
 you will get two running node processes on default 3000, 8080 ports.
+
+## Main Used Technologies
+- Angular 2
+- Webpack
+- Express
+- Pm2
