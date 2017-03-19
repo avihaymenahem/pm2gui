@@ -2,6 +2,7 @@ node_modules/
 typings/
 .idea/
 dist/
+temp/
 src/**/*.js
 **/*.js.map
 !/index.js

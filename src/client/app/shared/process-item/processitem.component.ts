@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {Pm2Service} from '../../shared/pm2/pm2.service';
+import {Pm2Service} from '../pm2/pm2.service';
 
 @Component({
     selector: "process-item",
