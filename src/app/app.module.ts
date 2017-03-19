@@ -16,13 +16,14 @@ import { ProcessItemComponent }  from './shared/process-item/processitem.compone
 
 // Services
 import { Pm2Service } from './shared/pm2/pm2.service';
+import { ConfigProviderService } from './shared/config-provider/config-provider.service';
 
 // Pipes
 import { FilterPipe } from './pipes/filter/filter.pipe';
 
 @NgModule({
     imports:      [ BrowserModule, FormsModule, HttpModule, routes ],
-    providers:    [ Pm2Service ],
+    providers:    [ Pm2Service, ConfigProviderService ],
     declarations: [ AppComponent, HomeComponent, ProcessComponent , SideMenuComponent, ProcessItemComponent, FilterPipe],
     bootstrap:    [ AppComponent ]
 })

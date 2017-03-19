@@ -9,32 +9,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-require("./home.component.css");
 var core_1 = require("@angular/core");
-var pm2_service_1 = require("../../shared/pm2/pm2.service");
-var HomeComponent = (function () {
-    function HomeComponent(pm2Service) {
-        this.pm2Service = pm2Service;
+var ConfigProviderService = (function () {
+    function ConfigProviderService() {
         var self = this;
-        self.getData();
+        self.configObject = require("../../../../config/config.json");
     }
-    HomeComponent.prototype.getData = function () {
+    ConfigProviderService.prototype.get = function (key) {
         var self = this;
-        self.pm2Service.getProcesses().subscribe(function (processes) {
-            self.processData = processes;
-        });
-        self.pm2Service.getServerInfo().subscribe(function (serverInfo) {
-            self.serverInfo = serverInfo;
-        });
+        return self.configObject[key];
     };
-    return HomeComponent;
+    return ConfigProviderService;
 }());
-HomeComponent = __decorate([
-    core_1.Component({
-        selector: "main-app",
-        template: require('html-loader!./home.component.html')
-    }),
-    __metadata("design:paramtypes", [pm2_service_1.Pm2Service])
-], HomeComponent);
-exports.HomeComponent = HomeComponent;
-//# sourceMappingURL=home.component.js.map
+ConfigProviderService = __decorate([
+    core_1.Injectable(),
+    __metadata("design:paramtypes", [])
+], ConfigProviderService);
+exports.ConfigProviderService = ConfigProviderService;
+//# sourceMappingURL=config-provider.service.js.map

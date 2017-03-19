@@ -8,6 +8,7 @@ import {Pm2Service} from '../../shared/pm2/pm2.service';
 })
 export class HomeComponent {
     private processData: Array<any>;
+    private serverInfo: Object;
 
     public searchQuery: string;
 
@@ -20,6 +21,10 @@ export class HomeComponent {
         let self = this;
         self.pm2Service.getProcesses().subscribe(processes => {
             self.processData = processes;
+        });
+
+        self.pm2Service.getServerInfo().subscribe(serverInfo => {
+            self.serverInfo = serverInfo;
         });
     }
 }

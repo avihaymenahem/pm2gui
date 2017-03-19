@@ -3,12 +3,26 @@ import { Http, Response }          from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/catch';
 import 'rxjs/add/operator/map';
+import {ConfigProviderService} from "../config-provider/config-provider.service";
 
 @Injectable()
 export class Pm2Service {
-   private baseUrl: string = "http://localhost:3000";
+   private baseUrl: string;
 
-   constructor(private http: Http) {}
+   constructor(private http: Http, private configProvider: ConfigProviderService) {
+        let self = this;
+        self.baseUrl = `${configProvider.get("WEB_API_SITE")}:${configProvider.get("WEB_API_PORT")}`;
+   }
+
+   public getServerInfo() {
+       let self = this,
+           url = self.baseUrl + "/serverinfo";
+
+       return self.http.get(url)
+           .map((res: Response) => {
+               return res.json();
+           });
+   }
 
    public getProcesses(): Observable<any> {
        let self = this,

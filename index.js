@@ -1,5 +1,6 @@
 const express = require("express");
 const pm2 = require("pm2");
+const os = require("os");
 const app = express();
 const port = 3000;
 
@@ -14,6 +15,21 @@ let connectAndExec = (onSuccess, onError) => {
         onSuccess();
     });
 };
+
+app.get('/serverinfo', function (req, res) {
+    let hostcpu = os.cpus();
+
+    res.send(JSON.stringify({
+        "hostname" : os.hostname(),
+        "cpus" : {
+            count: hostcpu.length
+        },
+        "memory" : {
+            "total" : os.totalmem(),
+            "free" : os.freemem(),
+        }
+    }));
+});
 
 app.get('/list', function (req, res) {
     connectAndExec(() => {

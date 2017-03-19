@@ -13,11 +13,21 @@ var core_1 = require("@angular/core");
 var http_1 = require("@angular/http");
 require("rxjs/add/operator/catch");
 require("rxjs/add/operator/map");
+var config_provider_service_1 = require("../config-provider/config-provider.service");
 var Pm2Service = (function () {
-    function Pm2Service(http) {
+    function Pm2Service(http, configProvider) {
         this.http = http;
-        this.baseUrl = "http://localhost:3000";
+        this.configProvider = configProvider;
+        var self = this;
+        self.baseUrl = configProvider.get("WEB_API_SITE") + ":" + configProvider.get("WEB_API_PORT");
     }
+    Pm2Service.prototype.getServerInfo = function () {
+        var self = this, url = self.baseUrl + "/serverinfo";
+        return self.http.get(url)
+            .map(function (res) {
+            return res.json();
+        });
+    };
     Pm2Service.prototype.getProcesses = function () {
         var self = this, url = self.baseUrl + "/list";
         return self.http.get(url)
@@ -53,7 +63,7 @@ var Pm2Service = (function () {
 }());
 Pm2Service = __decorate([
     core_1.Injectable(),
-    __metadata("design:paramtypes", [http_1.Http])
+    __metadata("design:paramtypes", [http_1.Http, config_provider_service_1.ConfigProviderService])
 ], Pm2Service);
 exports.Pm2Service = Pm2Service;
 //# sourceMappingURL=pm2.service.js.map

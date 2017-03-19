@@ -1,0 +1,6 @@
+{
+  "WEB_API_PORT" : 3000,
+  "WEB_API_SITE" : "http://localhost",
+  "MANAGEMENT_PORT" : 8080,
+  "MANAGEMENT_SITE" : "http://localhost"
+}

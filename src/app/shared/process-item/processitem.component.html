@@ -12,6 +12,7 @@
         <h6>Memory : {{ (process.monit.memory / 1048576) | number: '2.2-2' }} MB, CPU : {{ process.monit.cpu }}%</h6>
 
         <ng-container *ngIf="standaloneMode">
+            <h6>Interpeter: {{ process.pm2_env.exec_interpreter }}</h6>
             <h6>UpTime: {{ process.pm2_env.pm_uptime }}</h6>
             <h6>Instances: {{ process.pm2_env.instances }}</h6>
             <h6>Script Path: {{ process.pm2_env.pm_exec_path }}</h6>
@@ -27,14 +28,13 @@
         </div>
 
         <ng-container *ngIf="standaloneMode">
-            <br>
-
             <ng-container *ngIf="process.pm2_env.versioning">
                 <h3>Version Control</h3>
                 <h6>Type: {{ process.pm2_env.versioning.type }}</h6>
-                <h6>Remote: {{ process.pm2_env.versioning.remote }}</h6>
-                <h6>Bemote: {{ process.pm2_env.versioning.branch }}</h6>
+                <h6>Origin: {{ process.pm2_env.versioning.remote }}</h6>
+                <h6>Branch: {{ process.pm2_env.versioning.branch }}</h6>
                 <h6>URL: {{ process.pm2_env.versioning.url }}</h6>
+                <h6>Last version hash: {{ process.pm2_env.versioning.revision }}</h6>
                 <br>
             </ng-container>
 
@@ -48,6 +48,11 @@
             <h3>Logs</h3>
             <h6>Out Log: <a href="{{ process.pm2_env.pm_out_log_path }}">{{ process.pm2_env.pm_out_log_path }}</a></h6>
             <h6>Error Log: <a href="{{ process.pm2_env.pm_err_log_path }}">{{ process.pm2_env.pm_err_log_path }}</a></h6>
+
+            <hr>
+
+            <h3>Versions</h3>
+            <h6>Node: {{ process.pm2_env.node_version }}</h6>
         </ng-container>
     </div>
 </div>

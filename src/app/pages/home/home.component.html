@@ -12,6 +12,17 @@
 
 <br>
 
+<div class="row" *ngIf="serverInfo">
+   <div class="col-md-12">
+       <h3>Server Info</h3>
+       <h6>Hostname: {{ serverInfo.hostname }}</h6>
+       <h6>No. CPU: {{ serverInfo.cpus.count }}</h6>
+       <h6>Memory (used/total): {{ ((serverInfo.memory.total - serverInfo.memory.free) / 1048576) | number: '2.2-2' }} / {{ (serverInfo.memory.total / 1048576 ) | number: '2.2-2' }} MB</h6>
+   </div>
+</div>
+
+<hr>
+
 <div class="row">
     <process-item *ngFor="let item of processData | filter: 'name' : searchQuery" [process]="item" [cb]="getData.bind(this)"></process-item>
 </div>
