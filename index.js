@@ -4,7 +4,8 @@ const os = require("os");
 const cors = require('cors');
 const nedb = require("nedb");
 const app = express();
-const port = 3000;
+const config = require("./config/config.json");
+const port = config.WEB_API_PORT;
 
 let connectAndExec = (onSuccess, onError) => {
     pm2.connect(function(err) {

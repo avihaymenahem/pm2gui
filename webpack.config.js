@@ -1,4 +1,5 @@
-var webpack = require("webpack"),
+const config = require("./config/config.json"),
+    webpack = require("webpack"),
     HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
@@ -30,13 +31,22 @@ module.exports = {
         })
     ],
     devServer: {
+        port: config.MANAGEMENT_PORT,
+        historyApiFallback: true,
+        host: "0.0.0.0",
+        compress: true,
+        contentBase: './',
+        stats: {
+            modules: false,
+            cached: false,
+            colors: true,
+            chunk: false
+        },
         proxy: {
-            '/**': {  //catch all requests
-                target: '/index.html',  //default target
+            '/**': {
+                target: '/index.html',
                 secure: false,
                 bypass: function(req, res, opt){
-                    //your custom code to check for any exceptions
-                    //console.log('bypass check', {req: req, res:res, opt: opt});
                     if(req.path.indexOf('/img/') !== -1 || req.path.indexOf('/public/') !== -1){
                         return '/'
                     }
