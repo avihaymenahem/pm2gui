@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { routes }  from './app.router';
+import {MomentModule} from 'angular2-moment';
 
 // Pages
 import { AppComponent }  from './app.component';
@@ -20,11 +21,12 @@ import { ConfigProviderService } from './shared/config-provider/config-provider.
 
 // Pipes
 import { FilterPipe } from './pipes/filter/filter.pipe';
+import { FileSizePipe } from './pipes/file-size/file-size.pipe';
 
 @NgModule({
-    imports:      [ BrowserModule, FormsModule, HttpModule, routes ],
+    imports:      [ BrowserModule, FormsModule, HttpModule, MomentModule, routes ],
     providers:    [ Pm2Service, ConfigProviderService ],
-    declarations: [ AppComponent, HomeComponent, ProcessComponent , SideMenuComponent, ProcessItemComponent, FilterPipe],
+    declarations: [ AppComponent, HomeComponent, ProcessComponent , SideMenuComponent, ProcessItemComponent, FilterPipe, FileSizePipe],
     bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

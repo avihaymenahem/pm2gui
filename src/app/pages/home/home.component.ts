@@ -1,5 +1,5 @@
 import './home.component.css';
-import {Component} from '@angular/core';
+import {Component, ViewChildren} from '@angular/core';
 import {Pm2Service} from '../../shared/pm2/pm2.service';
 
 @Component({

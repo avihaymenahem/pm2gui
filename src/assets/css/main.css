@@ -14,6 +14,10 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0eb7ee', endColorstr='#1489f7',GradientType=0 );
 }
 
+input {
+    background-color: transparent;
+}
+
 .container {
     background-color: #fff;
     box-shadow: 0 0 55px -10px #000;

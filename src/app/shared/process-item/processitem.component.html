@@ -6,7 +6,7 @@
             #{{ process.pm2_env.pm_id }} <a [routerLink]="['/process', process.pm2_env.pm_id]">{{ process.name }}</a>
         </h5>
         <h6>[{{ process.pm2_env.exec_mode }}] <h6>(pid: {{ process.pid }})</h6></h6>
-        <h6>UpTime: {{ process.pm2_env.pm_uptime }}</h6>
+        <h6>UpTime: {{ process.pm2_env.pm_uptime | amTimeAgo: true }}</h6>
         <h6>Restarts: {{ process.pm2_env.restart_time }}</h6>
         <h6>Watching: {{ process.pm2_env.watch ? "enabled" : "disabled" }}</h6>
         <h6>Memory : {{ (process.monit.memory / 1048576) | number: '2.2-2' }} MB, CPU : {{ process.monit.cpu }}%</h6>
