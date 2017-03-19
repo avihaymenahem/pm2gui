@@ -1,6 +1,7 @@
 const express = require("express");
 const pm2 = require("pm2");
 const os = require("os");
+const cors = require('cors');
 const app = express();
 const port = 3000;
 
@@ -15,6 +16,8 @@ let connectAndExec = (onSuccess, onError) => {
         onSuccess();
     });
 };
+
+app.use(cors());
 
 app.get('/serverinfo', function (req, res) {
     let hostcpu = os.cpus();
