@@ -8,3 +8,4 @@ src/**/*.js
 !/index.js
 !/webpack.config.js
 npm-debug.log**
+.DS_STORE
