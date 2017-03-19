@@ -9,29 +9,36 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-require("./home.component.css");
+require("./process.component.css");
 var core_1 = require("@angular/core");
+var router_1 = require("@angular/router");
 var pm2_service_1 = require("../../shared/pm2/pm2.service");
-var HomeComponent = (function () {
-    function HomeComponent(pm2Service) {
+var ProcessComponent = (function () {
+    function ProcessComponent(route, pm2Service) {
+        this.route = route;
         this.pm2Service = pm2Service;
         var self = this;
-        self.getData();
+        self.route.params.subscribe(function (params) {
+            self.getDataById(parseInt(params["id"]));
+        });
     }
-    HomeComponent.prototype.getData = function () {
+    ProcessComponent.prototype.getDataById = function (id) {
         var self = this;
         self.pm2Service.getProcesses().subscribe(function (processes) {
-            self.processData = processes;
+            var selectedProcess = processes.filter(function (item) {
+                return parseInt(item["pm2_env"]["pm_id"]) === id;
+            });
+            self.processItem = selectedProcess ? selectedProcess[0] : '';
         });
     };
-    return HomeComponent;
+    return ProcessComponent;
 }());
-HomeComponent = __decorate([
+ProcessComponent = __decorate([
     core_1.Component({
         selector: "main-app",
-        template: require('html-loader!./home.component.html')
+        template: require('html-loader!./process.component.html')
     }),
-    __metadata("design:paramtypes", [pm2_service_1.Pm2Service])
-], HomeComponent);
-exports.HomeComponent = HomeComponent;
-//# sourceMappingURL=home.component.js.map
+    __metadata("design:paramtypes", [router_1.ActivatedRoute, pm2_service_1.Pm2Service])
+], ProcessComponent);
+exports.ProcessComponent = ProcessComponent;
+//# sourceMappingURL=process.component.js.map

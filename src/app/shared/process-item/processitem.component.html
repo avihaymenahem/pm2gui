@@ -1,0 +1,53 @@
+<div [ngClass]="standaloneMode ? '' : 'col-md-4'">
+    <div [ngClass]="standaloneMode ? '' : 'well well-sm'" style="overflow: hidden">
+        <h3 *ngIf="standaloneMode">General</h3>
+        <h5>
+            <span class="status-circle" [ngClass]="process.pm2_env.status"></span>
+            #{{ process.pm2_env.pm_id }} <a [routerLink]="['/process', process.pm2_env.pm_id]">{{ process.name }}</a>
+        </h5>
+        <h6>[{{ process.pm2_env.exec_mode }}]</h6>
+        <h6>PID: {{ process.pid }}</h6>
+        <h6>Restarts: {{ process.pm2_env.restart_time }}</h6>
+        <h6>Watching: {{ process.pm2_env.watch ? "enabled" : "disabled" }}</h6>
+        <h6>Memory : {{ (process.monit.memory / 1048576) | number: '2.2-2' }} MB, CPU : {{ process.monit.cpu }}%</h6>
+
+        <ng-container *ngIf="standaloneMode">
+            <h6>UpTime: {{ process.pm2_env.pm_uptime }}</h6>
+            <h6>Instances: {{ process.pm2_env.instances }}</h6>
+            <h6>Script Path: {{ process.pm2_env.pm_exec_path }}</h6>
+        </ng-container>
+
+        <hr>
+
+        <div class="actions pull-right">
+            <button name="Start" class="btn btn-xs btn-default glyphicon glyphicon-play" (click)="startProcess(process.pm2_env.pm_id)"></button>
+            <button name="Stop" class="btn btn-xs btn-default glyphicon glyphicon-stop" (click)="stopProcess(process.pm2_env.pm_id)"></button>
+            <button name="Reload" class="btn btn-xs btn-default glyphicon glyphicon-refresh" (click)="reloadProcess(process.pm2_env.pm_id)"></button>
+            <button name="Delete" class="btn btn-xs btn-default btn-danger glyphicon glyphicon-trash" (click)="deleteProcess(process.pm2_env.pm_id)"></button>
+        </div>
+
+        <ng-container *ngIf="standaloneMode">
+            <br>
+
+            <ng-container *ngIf="process.pm2_env.versioning">
+                <h3>Version Control</h3>
+                <h6>Type: {{ process.pm2_env.versioning.type }}</h6>
+                <h6>Remote: {{ process.pm2_env.versioning.remote }}</h6>
+                <h6>Bemote: {{ process.pm2_env.versioning.branch }}</h6>
+                <h6>URL: {{ process.pm2_env.versioning.url }}</h6>
+                <br>
+            </ng-container>
+
+            <ng-container *ngIf="!process.pm2_env.versioning">
+                <h6>No version control found</h6>
+                <br>
+            </ng-container>
+
+            <hr>
+
+            <h3>Logs</h3>
+            <h6>Out Log: <a href="{{ process.pm2_env.pm_out_log_path }}">{{ process.pm2_env.pm_out_log_path }}</a></h6>
+            <h6>Error Log: <a href="{{ process.pm2_env.pm_err_log_path }}">{{ process.pm2_env.pm_err_log_path }}</a></h6>
+        </ng-container>
+    </div>
+</div>

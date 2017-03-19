@@ -1,1 +1,17 @@
-<h1>Hello Home</h1>
+<br>
+
+<div class="top-bar-tools row">
+    <div class="col-md-9">
+        All Available Processes
+        <button name="Refresh" class="glyphicon glyphicon-refresh" (click)="getData()"></button>
+    </div>
+    <div class="search-box pull-right col-md-3">
+        <input type="text" placeholder="Search..." [(ngModel)]="searchQuery">
+    </div>
+</div>
+
+<br>
+
+<div class="row">
+    <process-item *ngFor="let item of processData | filter: 'name' : searchQuery" [process]="item" [cb]="getData.bind(this)"></process-item>
+</div>

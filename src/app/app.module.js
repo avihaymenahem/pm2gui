@@ -11,9 +11,17 @@ var platform_browser_1 = require("@angular/platform-browser");
 var forms_1 = require("@angular/forms");
 var http_1 = require("@angular/http");
 var app_router_1 = require("./app.router");
+// Pages
 var app_component_1 = require("./app.component");
 var home_component_1 = require("./pages/home/home.component");
+var process_component_1 = require("./pages/process/process.component");
+// Components
 var sidemenu_component_1 = require("./shared/side-menu/sidemenu.component");
+var processitem_component_1 = require("./shared/process-item/processitem.component");
+// Services
+var pm2_service_1 = require("./shared/pm2/pm2.service");
+// Pipes
+var filter_pipe_1 = require("./pipes/filter/filter.pipe");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -22,8 +30,8 @@ var AppModule = (function () {
 AppModule = __decorate([
     core_1.NgModule({
         imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, http_1.HttpModule, app_router_1.routes],
-        providers: [],
-        declarations: [app_component_1.AppComponent, home_component_1.HomeComponent, sidemenu_component_1.SideMenuComponent],
+        providers: [pm2_service_1.Pm2Service],
+        declarations: [app_component_1.AppComponent, home_component_1.HomeComponent, process_component_1.ProcessComponent, sidemenu_component_1.SideMenuComponent, processitem_component_1.ProcessItemComponent, filter_pipe_1.FilterPipe],
         bootstrap: [app_component_1.AppComponent]
     })
 ], AppModule);

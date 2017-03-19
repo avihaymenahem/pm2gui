@@ -1,0 +1,46 @@
+* {
+    outline: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #0eb7ee;
+    background: -moz-linear-gradient(top, #0eb7ee 0%, #1489f7 100%);
+    background: -webkit-linear-gradient(top, #0eb7ee 0%,#1489f7 100%);
+    background: linear-gradient(to bottom, #0eb7ee 0%,#1489f7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0eb7ee', endColorstr='#1489f7',GradientType=0 );
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 55px -10px #000;
+    border-radius: 3px;
+    overflow: hidden;
+    border: 1px solid #e2e2e2;
+}
+
+.container-body {
+    background-color: #F9F9F9;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.status-circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10em;
+}
+
+.status-circle.online {
+    background-color: #63bc13;
+}
+
+.status-circle.stopped, .status-circle.errored {
+    background-color: #d70000;
+}

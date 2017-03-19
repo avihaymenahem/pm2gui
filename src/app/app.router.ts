@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ProcessComponent } from './pages/process/process.component';
 
 export const router: Routes = [
     {
@@ -13,6 +14,10 @@ export const router: Routes = [
     {
         path: 'home',
         component: HomeComponent
+    },
+    {
+        path: 'process/:id',
+        component: ProcessComponent
     }
 ];
 

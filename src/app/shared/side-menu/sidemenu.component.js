@@ -21,8 +21,6 @@ var SideMenuComponent = (function () {
         self.MenuItems = [];
         var HomeMenuItem = new MenuItem_1.default('home', 'Home', 'home');
         self.MenuItems.push(HomeMenuItem);
-        var AboutMenuItem = new MenuItem_1.default('about', 'About', 'about');
-        self.MenuItems.push(AboutMenuItem);
     };
     return SideMenuComponent;
 }());

@@ -5,15 +5,25 @@ import { HttpModule } from '@angular/http';
 
 import { routes }  from './app.router';
 
+// Pages
 import { AppComponent }  from './app.component';
 import { HomeComponent }  from './pages/home/home.component';
+import { ProcessComponent }  from './pages/process/process.component';
 
+// Components
 import { SideMenuComponent }  from './shared/side-menu/sidemenu.component';
+import { ProcessItemComponent }  from './shared/process-item/processitem.component';
+
+// Services
+import { Pm2Service } from './shared/pm2/pm2.service';
+
+// Pipes
+import { FilterPipe } from './pipes/filter/filter.pipe';
 
 @NgModule({
     imports:      [ BrowserModule, FormsModule, HttpModule, routes ],
-    providers:    [ ],
-    declarations: [ AppComponent, HomeComponent , SideMenuComponent],
+    providers:    [ Pm2Service ],
+    declarations: [ AppComponent, HomeComponent, ProcessComponent , SideMenuComponent, ProcessItemComponent, FilterPipe],
     bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

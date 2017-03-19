@@ -1,4 +1,12 @@
 <div class="container">
-    <side-menu></side-menu>
-    <router-outlet></router-outlet>
+    <div class="row">
+        <div class="col-md-3">
+            <h3>PM2 Dashboard</h3>
+            <side-menu></side-menu>
+        </div>
+        <div class="col-md-9 container-body">
+            <router-outlet></router-outlet>
+            <br>
+        </div>
+    </div>
 </div>
