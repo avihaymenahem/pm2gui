@@ -1,16 +1,17 @@
 <br>
 
-<div class="top-bar-tools row">
-    <div class="col-md-9">
+<div class="top-bar-tools row col-md-12">
+    <div class="col-md-6">
         All Available Processes
         <button name="Refresh" class="glyphicon glyphicon-refresh" (click)="getData()"></button>
     </div>
+
     <div class="search-box pull-right col-md-3">
         <input type="text" placeholder="Search..." [(ngModel)]="searchQuery">
     </div>
 </div>
 
-<br>
+<hr>
 
 <div class="row" *ngIf="serverInfo">
    <div class="col-md-12">
