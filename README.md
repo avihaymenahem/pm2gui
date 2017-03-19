@@ -4,6 +4,8 @@ Hello there! I’m **PM2-GUI**;
 
 Currently still in development!
 
+![Screenshot](http://i.imgur.com/7JqFjXx.png)
+
 ## Install
 
 Clone the repo and then run the following command inside the folder
