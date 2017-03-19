@@ -2,4 +2,5 @@ node_modules/
 typings/
 .idea/
 dist/
+src/*.js
 !/index.js
