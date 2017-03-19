@@ -7,7 +7,7 @@ export class ConfigProviderService {
 
     constructor() {
         let self = this;
-        self.configObject = require("../../../../config/config.json");
+        self.configObject = require("../../../../../config/config.json");
     }
 
     get(key: string) {
