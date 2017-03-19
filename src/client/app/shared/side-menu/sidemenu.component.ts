@@ -19,7 +19,7 @@ export class SideMenuComponent {
 
         self.MenuItems = [];
 
-        let HomeMenuItem = new MenuItem('home', 'Home', 'home');
+        let HomeMenuItem = new MenuItem('home', 'Home', 'home', 'home');
         self.MenuItems.push(HomeMenuItem);
     }
 

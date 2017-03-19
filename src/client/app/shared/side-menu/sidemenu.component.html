@@ -1,5 +1,8 @@
 <ul class="list-unstyled">
     <li *ngFor="let menuItem of MenuItems">
-        <a routerLink="{{menuItem.link}}" routerLinkActive="active">{{ menuItem.readableName }}</a>
+        <a routerLink="{{menuItem.link}}" routerLinkActive="active">
+            <span class="glyphicon glyphicon-{{ menuItem.icon }}"></span>
+            {{ menuItem.readableName }}
+        </a>
     </li>
 </ul>
