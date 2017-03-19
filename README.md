@@ -21,3 +21,11 @@ you will get two running node processes on default 3000, 8080 ports.
 - Express
 - Pm2
 - Bootstrap
+
+
+## Roadmap
+- Add start script
+- Support Multiple Server Locations
+- Add Hyper to support in app logs view
+- Refactor some code (yep, most of it probably, as it was part of POC)
+- More to come...
