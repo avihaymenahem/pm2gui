@@ -3,6 +3,6 @@ typings/
 .idea/
 dist/
 src/**/*.js
-src/**/*.js.map
+**/*.js.map
 !/index.js
 !/webpack.config.js
