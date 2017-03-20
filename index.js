@@ -21,9 +21,7 @@ let connectAndExec = (onSuccess, onError) => {
 
 app.use(cors());
 
-app.get('*', function (req, res) {
-    res.sendFile(path.join(__dirname + '/dist/index.html'));
-});
+app.use(express.static('dist'));
 
 app.get('/serverinfo', function (req, res) {
     let hostcpu = os.cpus();
