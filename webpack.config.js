@@ -28,7 +28,11 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/client/index.html'
-        })
+        }),
+        new webpack.ContextReplacementPlugin(
+            /angular(\\|\/)core(\\|\/)(esm(\\|\/)src|src)(\\|\/)linker/,
+            __dirname
+        )
     ],
     devServer: {
         port: config.MANAGEMENT_PORT,
