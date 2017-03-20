@@ -4,6 +4,7 @@
   "description": "PM2 GUI App",
   "main": "index.js",
   "scripts": {
+    "server": "node index.js",
     "build": "webpack --progress",
     "build:prod": "webpack -p --progress",
     "postinstall": "typings install",

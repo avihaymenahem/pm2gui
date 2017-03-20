@@ -3,6 +3,7 @@ const pm2 = require("pm2");
 const os = require("os");
 const cors = require('cors');
 const app = express();
+const path = require('path');
 const config = require("./config/config.json");
 const port = config.WEB_API_PORT;
 
@@ -19,6 +20,10 @@ let connectAndExec = (onSuccess, onError) => {
 };
 
 app.use(cors());
+
+app.get('*', function (req, res) {
+    res.sendFile(path.join(__dirname + '/dist/index.html'));
+});
 
 app.get('/serverinfo', function (req, res) {
     let hostcpu = os.cpus();
@@ -125,5 +130,5 @@ app.get('/reload/:id', function(req, res) {
 });
 
 app.listen(port, function () {
-    console.log(`Example app listening on port ${port}!`);
+    console.log(`PM2GUI Server listening on port ${port}!`);
 });
