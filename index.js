@@ -2,7 +2,6 @@ const express = require("express");
 const pm2 = require("pm2");
 const os = require("os");
 const cors = require('cors');
-const nedb = require("nedb");
 const app = express();
 const config = require("./config/config.json");
 const port = config.WEB_API_PORT;
