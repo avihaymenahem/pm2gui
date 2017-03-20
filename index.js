@@ -127,6 +127,11 @@ app.get('/reload/:id', function(req, res) {
     });
 });
 
+
+app.use(function (req, res, next) {
+    res.sendFile(path.join(__dirname + '/dist/index.html'));
+});
+
 app.listen(port, function () {
     console.log(`PM2GUI Server listening on port ${port}!`);
 });
