@@ -8,9 +8,19 @@ Currently still in development, started as a POC, and wishing to grow more with 
 
 ## Install
 
-Clone the repo and then run the following command inside the folder
+Clone the repo and then run the following commands inside the folder:
+
+#### DEV
 ```
-npm install && npm start
+npm install
+npm run dev
+```
+
+#### PROD
+```
+npm install
+npm run build
+npm start
 ```
 
 you will get two running node processes on default 3000, 8080 ports.

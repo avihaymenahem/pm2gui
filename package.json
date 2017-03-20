@@ -4,11 +4,11 @@
   "description": "PM2 GUI App",
   "main": "index.js",
   "scripts": {
-    "server": "node index.js",
+    "dev": "node index.js & webpack-dev-server --inline --progress",
     "build": "webpack --progress",
     "build:prod": "webpack -p --progress",
     "postinstall": "typings install",
-    "start": "node index.js & webpack-dev-server --inline --progress"
+    "start": "node index.js"
   },
   "author": "Avihay Menahem",
   "license": "ISC",
